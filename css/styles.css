@@ -1,0 +1,13 @@
+.heimu,.heimu a,a .heimu {
+    border: none;
+    background-color: #252525!important;
+    color: #252525!important;
+}
+ 
+.heimu:hover,.heimu:active {
+    color: #FFF!important;
+}
+ 
+.heimu a:hover,a:hover .heimu {
+    border: none;
+}

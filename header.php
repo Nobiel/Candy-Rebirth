@@ -42,7 +42,8 @@ error_reporting(E_ALL | E_STRICT);
 	<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 	<link href="https://cdn.bootcss.com/highlight.js/9.12.0/styles/vs2015.min.css" rel="stylesheet">
 	<link href="<?php $this->options->themeUrl('css/materialdesignicons.min.css'); ?>" media="all" rel="stylesheet" type="text/css" />
-	<style>
+    <link href="<?php $this->options->themeUrl('css/styles.css'); ?>" rel="stylesheet" type="text/css" />
+    <style>
 	    .page-container{
 	        <?php if($this->options->wrapperLoaction=="placeMiddle"){ ?>
 	        justify-content: center;

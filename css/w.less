@@ -3,8 +3,6 @@ Theme: Candy: Rebirth
 Author: Archeb
 HomePage: https://qwq.moe/
 Date: 2018-03-24
-
-Thank you for using my theme~
 */
 
 * {
@@ -280,6 +278,17 @@ body {
     .avatar{
         border-radius:50%;
         box-shadow:1px 1px 15px rgba(0,0,0,0.1);
+        transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -webkit-transition: all .5s ease;
+        -o-transition: all .5s ease;
+    }
+    .avatar:hover {
+        transform:rotate(361deg);
+        -ms-transform:rotate(361deg);
+        -moz-transform:rotate(361deg);
+        -webkit-transform:rotate(361deg);
+        -o-transform:rotate(361deg); 
     }
     .name{
         margin:20px 40px 10px;
